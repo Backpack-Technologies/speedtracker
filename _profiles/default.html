@@ -8,7 +8,7 @@ name: "Backpack Homepage (3G - India)"
 #
 # The default profile will be the one shown when accessing the root URL of your
 # SpeedTracker site.
-#
+# 
 default: true
 
 #
@@ -29,16 +29,8 @@ parameters:
   location: "ap-south-1"
   firstViewOnly: true
   runs: 1
-  video: false
-  url: "https://backpackbang.com"
-
-#
-# The URL of the WebPageTest instance to be used with this profile. Please note that
-# if you decide to encrypt this URL, the filmstrip section will not be displayed.
-#
-# If you leave this field out, the public instance of WebPageTest will be used.
-#
-#wptUrl: https://www.webpagetest.org
+  video: true
+  url: "https://backpackbang.com.com"
 
 #
 # The URL of the WebPageTest instance to be used with this profile. Please note that
@@ -60,7 +52,7 @@ parameters:
 #budgets:
 #  -
 #    metric: TTFB
-#    max: 1000
+#    max: 600
 #    alerts: ["emailAlert", "slackAlert"]
 #  -
 #    metric: firstPaint
